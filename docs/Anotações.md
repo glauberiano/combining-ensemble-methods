@@ -34,3 +34,107 @@ O artigo base de trabalho utilizou `Deep Convolutional GAN` ..
 Falar sobre termos de regularização. O artigo utiliza `Total variation` mas cita outro exemplo, `group sparcity` ...
 
 Falar sobre as bases de dados ...
+
+
+__Databases__
+
+Login Name : lucas.mazim9@gmail.com
+Password : rNDrtId
+
+######################################################
+
+
+
+# __Artigo__: Metalearning - application to data mining
+
+## Aplicações
+
+__1) Selecting and Recommending Machine Learning Algorithms__
+
+Duas etapas:
+- Reduzir o espaço de amostras;
+- Encontrar a melhor opção;
+
+Algoritmos:
+- Seleção de melhor algoritmo
+- Ranqueamento:
+    - adjusted ratio of ratios
+    - average ranks
+    - KNN ranking method
+- Recomenção de parâmetros para algoritmos de aprendizado
+    - estimation of the generalization error
+    - optimization
+    - use of heuristics
+    - Knn para recomendação de parametros
+
+Avaliação
+- Spearman’s rank correlation coefficient 
+- Friedman’s test and Dunn’s multiple comparison procedure
+- Top-n
+
+__2) Geração de metafeatures__
+
+Até então, três classes de meta-características foram propostas:
+- baseadas em estatísticas e informações teóricas de caracterização;
+- baseadas em propriedade do hipotese de indução
+- baseadas no desempenho de lardmarks (algoritmos de aprendizado)
+
+Mais no capítulo 2 e 3
+
+__3) Planejamento de tarefas__
+
+__4) Criação e algoritmos de ensemble__
+
+__5) Transfer learning__
+
+__6) Composição de sistemas complexos e aplicações__
+
+
+__Capítulo 3: criação de sistemas de metaaprendizado para recomendação de algoritmos__
+
+- Meta-level learning
+    * Target metafeature
+      - Best algorithm in a set
+      - Subset of algorithms
+      - Ranking of algorithms
+      - Estimates of performance
+    * Algorithm for meta-level learning
+      - Classification algorithms (Qualquer algoritmo de aprendizado pode ser utilizado, inclusive, os mesmo que são utilizados na tarefas)
+      - Regression Algorithms
+      - Ranking algorithms
+        - KNN + (Average ranks OR Rate Ratios OR Significant Wins)
+        - Ranqueamento de arvores (Todorovisk 2002)
+- Meta-dados
+    * Meta-características: descriminitativas, complexidade computacional e dimensionalidade
+      - baseadas em estatísticas e informações teóricas de caracterização;
+      - baseadas em propriedade do hipotese de indução
+      - baseadas no desempenho de lardmarks (algoritmos de aprendizado)
+    * Especificação do problema
+    * Caracterização de dados iterativa
+- Meta-exemplos
+- Base-level algorithms
+    * Escolha dos algoritmos
+    * Avaliação
+- Qualidade dos meta-dados
+
+
+
+
+
+
+# IDEIAS
+
+- Sugerir um aprendizado por reforço que selecione quais algoritmos seguem em um mistura de BAGGING com BOOSTING
+- Heuristica para aprender concept drifting
+- Meta-learning decision trees
+- VFDT
+- Shewhart P-Chart
+
+
+- __Mestrado__: propor um algoritmo classificação multi-targets.
+
+
+
+
+
+
